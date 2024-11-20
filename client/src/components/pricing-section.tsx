@@ -19,11 +19,11 @@ export function PricingSection() {
         setLoading    
     } = useSubscription()
     
-      if(!subscriptionStatus){
-        return <div>Loading...</div>
-      }
+      // if(!subscriptionStatus){
+      //   return <div>Loading...</div>
+      // }
     
-      const isActive = subscriptionStatus.status === "active"
+      const isActive = subscriptionStatus?.status === "active"
       const handleUpgrade  = async ()=>{
         setLoading(true)
         if(!isActive){

@@ -20,7 +20,7 @@ export const Header = ()=> {
       <div className="container flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href={"/"} className="mr-6 flex items-center space-x-2">
-            LOGO
+            CONTRACT BUDDY
           </Link>
           <nav className="flex items-center space-x-7 text-sm font-medium">
             {navItems.map((item) => (
